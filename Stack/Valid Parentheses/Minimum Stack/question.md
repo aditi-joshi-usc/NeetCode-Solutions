@@ -19,15 +19,16 @@ Each function should run in O(1) time.
 Input: ["MinStack", "push", 1, "push", 2, "push", 0, "getMin", "pop", "top", "getMin"]
 Output: [null,null,null,null,0,null,2,1]
 Explanation:
-MinStack minStack = new MinStack();
-minStack.push(1);
-minStack.push(2);
-minStack.push(0);
-minStack.getMin(); // return 0
-minStack.pop();
-minStack.top();    // return 2
-minStack.getMin(); // return 1
-
+  ```
+  MinStack minStack = new MinStack();
+  minStack.push(1);
+  minStack.push(2);
+  minStack.push(0);
+  minStack.getMin(); // return 0
+  minStack.pop();
+  minStack.top();    // return 2
+  minStack.getMin(); // return 1
+```
 
 **Constraints:**
 
