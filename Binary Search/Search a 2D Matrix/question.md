@@ -29,7 +29,7 @@ Return `true` if `target` **exists** within `matrix`, otherwise return `false`.
 ## Example 1
 
 **Input:**
-```python
+```
 matrix = [
   [1, 2, 4, 8],
   [10, 11, 12, 13],
@@ -38,7 +38,7 @@ matrix = [
 target = 10
 Output:
 
-```
+
 true
 ```
 `Explanation:
