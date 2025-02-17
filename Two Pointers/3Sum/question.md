@@ -1,6 +1,5 @@
-Here's the markdown for the 3Sum problem:
 
-```markdown
+
 # 3Sum
 
 ## Difficulty: Medium
@@ -43,4 +42,3 @@ Output: [[0,0,0]]
 
 ### Recommended Time & Space Complexity
 You should aim for a solution with `O(n^2)` time and `O(1)` space, where `n` is the size of the input array.
-```
