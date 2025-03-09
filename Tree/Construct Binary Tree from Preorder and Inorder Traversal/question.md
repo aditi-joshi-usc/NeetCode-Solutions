@@ -27,9 +27,10 @@ preorder = [1,2,3,4], inorder = [2,1,3,4]
 
 **Input:**
 ```
-preorder =, inorder =
+preorder =[1], inorder =[1]
 ```
 **Output:**
+[1]
 
 
 ### Recommended Time & Space Complexity
