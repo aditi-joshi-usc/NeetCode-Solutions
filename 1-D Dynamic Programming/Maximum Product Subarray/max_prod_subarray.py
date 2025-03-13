@@ -6,9 +6,9 @@ class Solution:
         cmin, cmax = 1,1
 
         for num in nums:
-            
+            tmp = cmax*num
             cmax = max(cmax * num, cmin * num, num)
-            cmin = min(cmax * num, cmin * num, num)
+            cmin = min(tmp, cmin * num, num)
             res = max(cmax, res)
         return res
         #Time Complexity = O(n)
