@@ -13,7 +13,8 @@ class Solution:
             return x*x
         
         if n%2 == 0:
-            return self.myPow(x,n/2) * self.myPow(x,n/2)
+            half = self.myPow(x,n/2)
+            return half*half 
         else:
             return x * self.myPow(x, n-1)
 
