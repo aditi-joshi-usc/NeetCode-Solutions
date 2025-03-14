@@ -11,12 +11,12 @@ class Solution:
             return x
         if n == 2:
             return x*x
-        
+        half = self.myPow(x,n//2)
         if n%2 == 0:
-            half = self.myPow(x,n/2)
+            
             return half*half 
         else:
-            return x * self.myPow(x, n-1)
+            return x * half*half 
 
 #Time Complexity = O(logn)
 #Space Complexity = O(logn)
