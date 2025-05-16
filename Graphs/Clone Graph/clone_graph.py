@@ -26,3 +26,4 @@ class Solution:
             return old_new[root]
 
         return dfs(node) if node else None
+# time complexity = O(n) where n is the number of nodes
